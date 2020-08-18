@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin:0;
+    background-image: linear-gradient(rgb(24, 3, 3),rgb(252, 232, 232));
+    font-family: monospace;
+    
+    
+    font-size:18px;
+  }
+
+  .onHoverDark:hover { background-color: #3b0202 !important; color: #BABABA !important;}
+  .hrefWithoutDecoration {text-decoration: none !important; color:rgb(201, 182, 182) !important;}
+  .activeCustom {color:rgb(248, 248, 248) !important}
+  .inactiveCustom {color:#A9A9A9 !important}
+  .fullwidth {width: 100%;}

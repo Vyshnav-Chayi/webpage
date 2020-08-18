@@ -1,0 +1,81 @@
+
+<div class=" back text-white ">
+  <div class="container-md ">
+    <div class="jumbotron  back " style="margin-bottom:0">
+      <h1 class="f">VYSHNAV P</h1>
+    </div>
+    <nav class="navbar navbar-expand-sm  navbar-dark">
+      <a class="navbar-brand f onHoverDark activeCustom" href="/home" *ngIf="active === '/home'">Home</a>
+      <a class="navbar-brand f onHoverDark inactiveCustom" href="/home" *ngIf="active !== '/home'">Home</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link f onHoverDark activeCustom" href="/profile" *ngIf="active === '/profile'">Profile</a> 
+            <a class="nav-link f onHoverDark inactiveCustom" href="/profile" *ngIf="active !== '/profile'">Profile</a> 
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link f onHoverDark activeCustom" href="/research" *ngIf="active === '/research'">Research</a> 
+            <a class="nav-link f onHoverDark inactiveCustom" href="/research" *ngIf="active !== '/research'">Reserach</a> 
+            
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link f onHoverDark activeCustom" href="/project" *ngIf="active === '/project'">Project</a> 
+            <a class="nav-link f onHoverDark inactiveCustom" href="/project" *ngIf="active !== '/project'">Project</a> 
+           
+
+          </li>    
+        </ul>
+      </div>  
+    </nav>
+  </div>
+
+</div>
+
+
+<div class="container pt-5 pb-5 "> 
+	<div class="row"> 
+
+    <div class="col-lg-8 py-3">
+      <!-- change directory-->
+      <router-outlet></router-outlet>
+    </div>
+
+
+    <div class = "col-lg-4 shadow hero-image " >
+      <div class="row px-5 pt-5 ">
+        <div class="col-8 pt-3 shadow pb-3">
+          <img src="/assets/images/mypic1.jpg" class="img-circle img-thumbnail" alt="Cinque Terre">
+        </div>
+      </div> 
+      <div class="row py-5 py-3 px-4 mb-5 shadow mx-1">
+        <div class="col text-center text-white">
+            <h5 class="text-white">My name is VYSHNAV </h5> 
+            <p>
+                I am a student at IIT madrass studying civil Engineering, currently in 3rd  year. <br>
+            </p>
+        </div>
+      </div>
+      <div class="row pt-3 pb-3 pl-3 text-white mb-5 shadow mx-1">
+				<div class="col">
+					<h5 class="pb-2"><b>Contact Information</b></h5>
+					<p>
+            <a href="mailto:vyshnavdwaraka@gmail.com" target="_blank" class="text-white"><strong>Gmail id: </strong> vyshnavdwaraka@gmail.com</a><br><br>
+            <a href="https://github.com/Vyshnav-Chayi" target="_blank"  class="text-white"><strong>GitHub</strong> </a><br><br>
+						<a href="tel:9207297114" class="text-white"><strong>Call: 9207297114</strong> </a>
+						
+					</p>
+        </div>
+      </div>
+    </div> 
+    
+  </div> 
+</div>
+
+
+

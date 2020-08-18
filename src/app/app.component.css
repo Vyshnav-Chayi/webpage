@@ -1,0 +1,17 @@
+.hero-image {
+    background-image: url("/assets/images/iphonr.jpg");
+    height:1000px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .back{
+    background-color:rgb(22, 5, 5) !important;
+    
+  }
+  .f{
+    font-weight: bold;
+  }
+  
+ 
